@@ -13,7 +13,7 @@
 // If you no longer want to use a dependency, remember
 // to also remove its path from "config.paths.watched".
 // import "phoenix_html"
-console.log("HELLO BEEZY");
+console.log('HELLO BEEZY')
 
 // Import local files
 //
