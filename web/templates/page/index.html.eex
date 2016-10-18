@@ -1,39 +1,27 @@
 <div class="jumbotron">
   <h2>
-    <%= gettext "We're sorry, %{name} is currently under construction ",
+    <%= gettext "We're sorry, %{name} is under construction ",
             name: "our website" %>
   </h2>
-  <p class="lead">Download the application above <br />or view the contact information below.</p>
+  <p class="lead">The Hungarian scholarship application <br />can be downloaded above.</p>
 </div>
 
 <div class="row marketing">
   <div class="col-lg-6">
-    <h4>Resources</h4>
+    <h4>Hungarian Scholarship</h4>
     <ul>
       <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
+        <a href="https://hexdocs.pm/phoenix">Application Process</a>
       </li>
       <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
+        Contact: ferenc@rosztoczyfoundation.com
       </li>
     </ul>
   </div>
 
   <div class="col-lg-6">
-    <h4>Help</h4>
+    <h4>College Promise</h4>
     <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
     </ul>
   </div>
 </div>

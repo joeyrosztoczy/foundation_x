@@ -4,6 +4,7 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 body, form, ul, table {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: 'Lato';
 }
 
 /* Phoenix flash messages */
@@ -22,9 +23,8 @@ form.link, form.button {
   width: 519px;
   height: 71px;
   display: inline-block;
-  margin-bottom: 1em;
-  background-image: url("/images/phoenix.png");
   background-size: 519px 71px;
+  font-size: 40px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
