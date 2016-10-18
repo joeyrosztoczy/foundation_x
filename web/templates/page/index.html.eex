@@ -1,6 +1,9 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h2>
+    <%= gettext "We're sorry, %{name} is currently under construction ",
+            name: "our website" %>
+  </h2>
+  <p class="lead">Download the application above <br />or view the contact information below.</p>
 </div>
 
 <div class="row marketing">

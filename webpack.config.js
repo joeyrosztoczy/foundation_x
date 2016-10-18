@@ -23,7 +23,7 @@ module.exports = {
       test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
       loader: 'url?limit=1000'
     }, {
-      test: /\.(png|gif|jpg)(\?[a-z0-9]+)?$/,
+      test: /\.(png|gif|jpg|pdf)(\?[a-z0-9]+)?$/,
       loader: 'url-loader?limit=100000'
     }, {
       test: /\.css$/,
