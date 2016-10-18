@@ -21,7 +21,9 @@
             </li>
           </ul>
         </nav>
-        <span class="logo">The Rosztoczy Foundation</span>
+        <span class="logo">
+          <a href="<%= page_path @conn, :index %>">The Rosztoczy Foundation</a>
+        </span>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
