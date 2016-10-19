@@ -9,8 +9,7 @@ defmodule FoundationX.Endpoint do
   # when deploying your static files in production.
   plug Plug.Static,
     at: "/", from: :foundation_x, gzip: false,
-    only: ~w(css fonts images js favicon.ico robots.txt Application1.pdf DBSBrochureEnglish.pdf
-    DBSBrochureSpanish.pdf)
+    only: ~w(css fonts images js favicon.ico robots.txt assets)
 
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.

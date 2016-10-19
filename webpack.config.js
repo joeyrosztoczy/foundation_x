@@ -23,9 +23,6 @@ module.exports = {
       test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
       loader: 'url?limit=1000'
     }, {
-      test: /\.(png|gif|jpg|pdf)(\?[a-z0-9]+)?$/,
-      loader: 'url?limit=100000'
-    }, {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract('style', 'css')
     }, {
@@ -38,6 +35,6 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('css/app.css'),
-    new CopyWebpackPlugin([{ from: './web/static/assets' }])
+    new CopyWebpackPlugin([{ from: "./web/static/assets", to: "./assets" }])
   ]
 }

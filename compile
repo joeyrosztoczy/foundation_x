@@ -1,2 +1,5 @@
-webpack -p
+info "Building Phoenix Assets"
+webpack
+info "Webpack Completed Successfully"
 mix phoenix.digest
+info "Phoenix Digest Completed Successfully"
