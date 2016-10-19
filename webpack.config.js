@@ -6,7 +6,7 @@ module.exports = {
   entry: ['./web/static/css/app.scss', './web/static/js/app.js'],
   output: {
     path: './priv/static',
-    filename: 'app.js'
+    filename: 'js/app.js'
   },
   resolve: {
     modulesDirectories: [ 'node_modules', path.join(__dirname, '/web/static/js') ]
@@ -24,7 +24,7 @@ module.exports = {
       loader: 'url?limit=1000'
     }, {
       test: /\.(png|gif|jpg|pdf)(\?[a-z0-9]+)?$/,
-      loader: 'url-loader?limit=100000'
+      loader: 'url?limit=100000'
     }, {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract('style', 'css')
