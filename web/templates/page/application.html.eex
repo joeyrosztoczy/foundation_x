@@ -6,7 +6,7 @@
 2. An application form can be found at the Foundation's web site: rosztoczyfoundation.com and must be completed.
 </p>
 <p>
-3. The applicant must contact a member of the Hungarian Selection Committee and make an appointment to meet with that person. This committee member will make an evaluation of the applicant.
+3. The applicant must contact a member of the <a href="<%= page_path @conn, :hungarian_committee %>">Hungarian Selection Committee</a> and make an appointment to meet with that person. This committee member will make an evaluation of the applicant.
 </p>
 <p>
 4. Application documents must include the following:
