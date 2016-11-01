@@ -18,6 +18,7 @@ defmodule FoundationX.Router do
 
     get "/", PageController, :index
     get "/application", PageController, :application
+    get "/hungarian_committee", PageController, :hungarian_committee
   end
 
   # Other scopes may use custom stacks.

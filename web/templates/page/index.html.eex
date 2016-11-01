@@ -17,6 +17,9 @@
         <a href="<%= page_path @conn, :application %>">Application Process</a>
       </li>
       <li>
+        <a href="<%= page_path @conn, :hungarian_committee %>">Hungarian Committee</a>
+      </li>
+      <li>
         Contact: ferenc@rosztoczyfoundation.com
       </li>
     </ul>

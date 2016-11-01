@@ -8,4 +8,8 @@ defmodule FoundationX.PageController do
   def index(conn, _params) do
     render conn, "index.html"
   end
+
+  def hungarian_committee(conn, _params) do
+    render conn, "hungarian_committee.html"
+  end
 end
