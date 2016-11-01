@@ -17,6 +17,7 @@ defmodule FoundationX.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/american_committee", PageController, :american_committee
     get "/application", PageController, :application
     get "/hungarian_committee", PageController, :hungarian_committee
   end

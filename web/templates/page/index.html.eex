@@ -20,6 +20,9 @@
         <a href="<%= page_path @conn, :hungarian_committee %>">Hungarian Committee</a>
       </li>
       <li>
+        <a href="<%= page_path @conn, :american_committee %>">American Committee</a>
+      </li>
+      <li>
         Contact: ferenc@rosztoczyfoundation.com
       </li>
     </ul>
